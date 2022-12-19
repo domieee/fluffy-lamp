@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* FONT FACES */
+
+/* OPEN SANS REGULAR */
+
+@font-face {
+    font-family: openSansRegular;
+    src: url(../fonts/static/OpenSans/OpenSans-Regular.ttf);
+}
+
+/* OPEN SANS BOLD */
+
+@font-face {
+    font-family: openSansBold;
+    src: url(../fonts/static/OpenSans/OpenSans-Bold.ttf);
+}
+
+/* FREDERICKA THE GREAT */
+
+@font-face {
+    font-family: frederickaTheGreat;
+    src: url(../fonts/FrederickatheGreat-Regular.ttf);
+}
+
+h1 {
+    font-family: frederickaTheGreat;
+    color: #FFF;
+    position: absolute;
+    top: 10px;
+    left: 150px;
+}
+
+#backgroundImageContainer {
+    position: relative;
+}
+
+#backgroundImageHeadpage {
+    width: 100%;
+    height: 100vh;
+}
+
+#articleHeadpage {
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, 40% );
+    color: #FFF;
+    text-align: center;
+}
+
+#articleHeadpage h2 {
+    font-size: 35px;
+    font-family: frederickaTheGreat;
+    margin: 0 auto;
+}
+#articleHeadpage p {
+    font-family: openSansRegular;
+    opacity: 70%;
+    padding-bottom: 30px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+#articleHeadpage a {
+    font-family: openSansRegular;
+    color: #FFF;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 9px 15px 9px 15px;
+}
+
+#navigationHeadpage {
+    position: absolute;
+    bottom: 60px;
+    right: 20px;
+}
+
+#navigationHeadpage ul li {
+    text-align: right;
+}
+
+#navigationHeadpage a {
+    font-family: openSansRegular;
+    text-decoration: none;
+    margin-bottom: 30px;
+    color: #FFF;
+}
+
+#articleContainer {
+    height: 400px;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+#articleContainer h2 {
+    padding: 25px 0;
+    font-family: frederickaTheGreat;
+}
+
+#articleContainer p {
+
+}
+
+#articleContainer section {
+    border: 4px solid black;
+    width: 130px;
+    margin: 30px auto 0;
+    padding: 20px;
+}
+
+#footerContainer {
+    position: relative;
+    height: 175px;
+    width: 100vw;
+    background-color: aqua;
+}
+
+#footerArticle {
+    width: 40vw;
+    font-family: openSansRegular;
+    margin: 0 0 5px;
+}
+
+#findusButtonFooter {
+    position: absolute;
+    font-family: openSansRegular;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 5px 10px;
+    margin: 220px 0 0;
+    top: 50%;
+    border-radius: 5px;
+    color: white;
+}

@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Pseudo Elemente */
+
+/* Das Pseudo Element ::first-letter spricht den ersten Buchstaben eines Elements an */
+
+h1::first-letter {
+    color: purple;
+    font-size: 200px;
+}
+
+/* ::first-line spricht die erste Linie an */
+
+p::first-line {
+    color: red;
+    background-color: yellow;
+}
+
+/* Mit ::selection kann das Styling von markierten Text verändert werden */
+
+p::selection {
+    color: blue;
+    background-color: yellow;
+}
+
+ul, ol {
+    margin: 20px;
+    font-size: 30px;
+}
+
+ul li::marker {
+    color: cornflowerblue;
+}
+
+ol li::marker {
+    color:chartreuse
+}
+
+h3::before {
+    content: "Ich stehe vor einem Element... ";
+    background-color: yellow;
+}
+
+h4::after {
+    content: " ...ich stehe hinter einem Element";
+    background-color: yellow;
+}
+
+/* Pseudo Klassen */
+
+nav a {
+    padding: 25px;
+    margin: 50px;
+    color: blue;
+    background-color: aqua;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    background-color: darkblue;
+    /* font-size: 30px; */
+    color: white;
+}
+
+nav a:active {
+    color: darkkhaki;
+}
+
+/* Klassen & ID's */
+
+/* Der '.'  */
+
+.colorYellow {
+    background-color: cornflowerblue;
+}
+
+.backgroundBlack {
+    background-color: black;
+    color: aquamarine;
+}
+
+#sectionOne {
+    background-color: bisque;
+    height: 700px;
+}
+
+#sectionTwo {
+    background-color: cadetblue;
+    height: 600px;
+}
+
+#footerOne {
+    height: 700px;
+}
+
